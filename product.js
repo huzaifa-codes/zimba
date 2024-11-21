@@ -8,6 +8,7 @@ const div = document.querySelector("#parent");
 
 // Generate Cards
 change.map((item, index) => {
+
   div.innerHTML += `
     <div class="card-wrapper">
       <img src="${item.image}" class="card-img-left" alt="Product Image">
